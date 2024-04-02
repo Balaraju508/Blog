@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <img class="on" src="./images/logo.png"></i>
+      </figure>
+      <i class="fas fa-bars fa-4x" id="menu-icon"></i>
+      <nav aria-label="Main Menu" id="menu" class="hidden">
+        <ul id="menubar" role="menubar" aria-label="Main Menu">
+          <li role="none">
+            <a href="index.html" class="nav-link" role="menuitem">Home</a>
+          </li>
+          <li role="none">
+            <a href="about.html" class="nav-link" role="menuitem">About</a>
+          </li>
+          <li role="none">
+            <a href="archives.html" class="nav-link" role="menuitem">Archives</a>
+          </li>
+          <li role="none">
+            <a href="blog.html" class="nav-link" role="menuitem">Blog Posts</a>
+          </li>
+          <li role="none">
+            <a href="contact.html" class="nav-link" role="menuitem">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="blog-banner-section">
+        <article>
+          <h1 class="banner-heading">Web development</h1>
+          <p class="banner-description text-justify">
+            Web development, also known as website development, 
+            refers to the tasks associated with creating, building, 
+            and maintaining websites and web applications that run 
+            online on a browser. It may, however, also include web design, 
+            web programming, and database management.
+          </p>
+        </article>
+        <aside>
+          <img
+            src="./images/cover-photo.jpg"
+            alt="cover photo"
+            class="banner-img"
+          />
+        </aside>
+      </section>
+      <section id="blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="card-container">
+          <div class="card">
+            <h3 class="card-header">Mission & Objectives</h3>
+            <p class="card-description">
+                At New England Tech, we understand that each student may have 
+                unique learning styles. We provide ample student support to help 
+                each of you succeed in becoming job-ready upon graduation. 
+                Our academic programs will help you develop highly marketable 
+                technical and interpersonal skills employers are looking for.
+                Most of our associate degree programs can be completed in as 
+                little as 18 months and our bachelor’s degree programs in as 
+                little as 3 years. We are dedicated to helping you pursue excellence 
+                in your education, from day one.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+          <div class="card">
+            <h3 class="card-header">Hands-On Learning</h3>
+            <p class="card-description">
+                At New England Tech, our strong focus on hands-on learning is what sets 
+                us apart, and it’s what will give you an edge in your career from day one. 
+                With unique, lab-based learning experiences, you’re able to develop real-world 
+                skills in your chosen trade or profession. Whether you’re designing games, 
+                serving as a valued healthcare professional, designing and building high performance 
+                places for people to live and work, working with advanced automotive technologies, deepening 
+                project management insights, or any of the many other professional opportunities at New England 
+                Tech.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+          <div class="card">
+            <h3 class="card-header">Industry Expert Faculty</h3>
+            <p class="card-description">
+                Learning about an industry is helpful but getting information from industry leaders 
+                about what careers truly entail is crucial. For that, you need industry experts who 
+                have deep experience, know what skills employers are looking for, and who can inspire 
+                and motivate those who are new to the field. That’s where our faculty comes in. Bringing 
+                considerable insight and a breadth of resources to their teaching, our faculty members help 
+                you navigate toward your career with greater clarity about what your profession requires, 
+                and how you can meet those needs.
+            </p>
+            <button type="submit" class="card-btn btn">Read More</button>
+          </div>
+        </div>
+      </section>
+      <section id="archives" class="section-center">
+        <h2 class="section-heading">Archives</h2>
+        <div class="archives-container">
+          <ul class="archives-container-lists">
+            <li class="archives-container-list">
+              <img src="./images/img-1.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-2.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-3.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-4.jpg" alt="image1" class="archives-img" />
+            </li>
+            <li class="archives-container-list">
+              <img src="./images/img-5.jpg" alt="image1" class="archives-img" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="blog-posts" class="section-center">
+        <h2 class="section-heading blog-posts-heading">Blog Posts</h2>
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="./images/blog-1.jpg" alt="laptop" class="blog-img" />
+          </aside>
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 1</h2>
+            <h3 class="blog-sub-heading">Web developer</h3>
+            <p class="blog-description">
+              Web development is the process of creating, designing, 
+              and maintaining websites. It involves a combination of 
+              different skills, such as programming, design, and content 
+              creation. A web developer's primary responsibility is to 
+              bring a website to life by building its functionality and 
+              ensuring it's visually appealing. A well-crafted website 
+              has the potential to attract and retain customers, provide 
+              a seamless user experience, and ultimately drive business growth.
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="./images/blog-2.jpeg" alt="laptop" class="blog-img" />
+          </aside>
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 2</h2>
+            <h3 class="blog-sub-heading">AI</h3>
+            <p class="blog-description">
+              Most of the breakthroughs in artificial intelligence (AI) 
+              development are happening elsewhere, but Indonesia is not 
+              lagging behind. With a young, tech-savvy population and 
+              favorable macroeconomic trends, Indonesian companies are 
+              beginning to adopt and advance on AI’s vast opportunities. 
+              Local and international investors are also eyeing AI’s potential 
+              for Southeast Asia’s largest economy. 
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+
+        <div class="blog-post">
+          <aside class="blog-post-aside">
+            <img src="./images/blog-3.jpeg" alt="laptop" class="blog-img" />
+          </aside>
+          <article class="blog-content">
+            <h2 class="blog-heading">Blog 3</h2>
+            <h3 class="blog-sub-heading">Cyder security</h3>
+            <p class="blog-description">
+              Cyber security, also called cybersecurity, information security, 
+              or IT security, is the practice of protecting sensitive data and 
+              critical digital infrastructure from malicious attacks.With an 
+              increasing number of people working from home, governments, and 
+              industries digitizing records, and businesses shifting their assets 
+              online, cyber attacks have the potential to do a great deal of damage.
+            </p>
+            <button type="submit" class="btn blog-btn">Learn More</button>
+          </article>
+        </div>
+      </section>
+      <section id="contact-section" class="section-center">
+        <h2 class="section-heading blog-posts-heading text-white">
+          Contact Me
+        </h2>
+        <form action="" id="contact-form">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" required autocomplete="name" />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" required autocomplete="email" />
+          </div>
+          <div class="form-control">
+            <label for="mesage">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <div class="form-control form-btn-field">
+            <button type="submit" class="btn contact-btn">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright-text">
+        Copyright &copy; by Balaraju. All rights reserved.
+      </p>
+      <nav aria-label="Footer Menu">
+        <ul role="menubar2" id="menubar2" aria-label="Footer Menu">
+          <li role="none">
+            <a
+              href="#"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-facebook footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="#"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-youtube footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="#"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-github footer-icon"></i>
+            </a>
+          </li>
+          <li role="none">
+            <a
+              href="#"
+              target="_blank"
+              class="nav-link"
+              role="menuitem"
+            >
+              <i class="fab fa-linkedin footer-icon"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+  </body>
+</html>
